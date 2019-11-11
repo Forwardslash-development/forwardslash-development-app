@@ -1,0 +1,65 @@
+{
+  "name": "forwardslash-development-app",
+  "private": true,
+  "description": "Modern Application Development",
+  "version": "0.1.0",
+  "author": "jv <jv@forwardslashinc.com>",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "@material-ui/core": "^4.6.0",
+    "@material-ui/icons": "^4.5.1",
+    "babel-runtime": "^6.26.0",
+    "classnames": "^2.2.6",
+    "gatsby": "^2.17.9",
+    "gatsby-image": "^2.2.30",
+    "gatsby-plugin-manifest": "^2.2.26",
+    "gatsby-plugin-offline": "^3.0.18",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-resolve-src": "^2.0.0",
+    "gatsby-plugin-sass": "^2.1.20",
+    "gatsby-plugin-sharp": "^2.2.36",
+    "gatsby-plugin-sitemap": "^2.2.19",
+    "gatsby-source-filesystem": "^2.1.35",
+    "gatsby-transformer-sharp": "^2.3.2",
+    "history": "^4.10.1",
+    "node-sass": "^4.13.0",
+    "nouislider": "^14.0.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "react-icon": "^1.0.0",
+    "react-icons": "^3.8.0",
+    "react-router-dom": "^5.1.2",
+    "react-slick": "^0.25.2",
+    "react-swipeable-views": "^0.13.3",
+    "typeface-roboto": "0.0.75",
+    "typeface-roboto-slab": "0.0.72"
+  },
+  "devDependencies": {
+    "babel-preset-gatsby": "^0.2.20",
+    "prettier": "1.18.2"
+  },
+  "keywords": [
+    "forwardslash"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  }
+}
