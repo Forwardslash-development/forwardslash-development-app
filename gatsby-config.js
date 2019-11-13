@@ -19,11 +19,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `forwardslash-development-app`,
+        name: `Forwardslash Development`,
         short_name: `forwardslash`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#000066`,
+        theme_color: `#000066`,
         display: `minimal-ui`,
         icon: `src/assets/img/42xlogo.png`, // This path is relative to the root of the site.
       },
