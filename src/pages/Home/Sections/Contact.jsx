@@ -40,6 +40,7 @@ class Contact extends React.Component {
                 </GridItem>
                 <GridItem xs={12} sm={12} md={6}>
                   <CustomInput
+                    name="form-name"
                     labelText="Your Email"
                     id="email"
                     formControlProps={{
