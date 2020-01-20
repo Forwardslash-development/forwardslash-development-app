@@ -1,8 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../components/layout';
-import Header from '../components/Header/header.jsx'
-import Footer from '../components/Footer/footer.jsx'
+import Header from '../components/Header/Header.jsx'
+import Footer from '../components/Footer/Footer.jsx'
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
