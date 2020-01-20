@@ -36,15 +36,12 @@ const Success = props => (
           color: "white"
         }}
       />
-      <section id="one">
-        <div className="inner">
-          <h1>Success/Thank You Page</h1>
-          <span className="image main">
-            <img src={bg6} alt="" />
-          </span>
-          <p>Thank you for contacting us!</p>
-        </div>
-      </section>
+      <h1>Success/Thank You Page</h1>
+      <span className="image main">
+        <img src={bg6} alt="" />
+      </span>
+      <p>Thank you for contacting us!</p>
+
     </div>
     <Footer />
   </Layout >
