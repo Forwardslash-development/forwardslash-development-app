@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 // nodejs library that concatenates classes
 import classNames from "classnames";
 
@@ -15,7 +15,7 @@ import TeamSection from "./Sections/Team.jsx";
 import Contact from "./Sections/Contact.jsx";
 import GridContainer from "../../components/Grid/GridContainer.jsx";
 import GridItem from "../../components/Grid/GridItem.jsx";
-import Button from "../../components/CustomButtons/Button.jsx";
+// import Button from "../../components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
 
