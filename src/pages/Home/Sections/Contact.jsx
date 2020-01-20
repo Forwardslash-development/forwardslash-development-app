@@ -64,7 +64,7 @@ class Contact extends React.Component {
                     md={4}
                     className={classes.textCenter}
                   >
-                    <Button color="primary">Send Message</Button>
+                    <Button type="submit" color="primary">Send Message</Button>
                   </GridItem>
                 </GridContainer>
               </GridContainer>
