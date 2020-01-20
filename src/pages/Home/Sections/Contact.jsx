@@ -28,6 +28,8 @@ class Contact extends React.Component {
             <form name="contact" method="POST" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
               <GridContainer>
                 <GridItem xs={12} sm={12} md={6}>
+                  <input type="hidden" name="bot-field" />
+                  <input type="hidden" name="form-name" value="contact" />
                   <CustomInput
                     labelText="Your Name"
                     id="name"
