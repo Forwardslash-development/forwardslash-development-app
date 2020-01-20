@@ -25,7 +25,7 @@ class Contact extends React.Component {
               collaboration. We will responde get back to you in a couple of
               hours.
             </h4>
-            <form>
+            <form name="contact" method="POST" daata-netlify="true">
               <GridContainer>
                 <GridItem xs={12} sm={12} md={6}>
                   <CustomInput
