@@ -28,7 +28,7 @@ function Footer({ ...props }) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href=""
+                href="https://forwardslash-development.com"
                 className={classes.block}
               >
                 Forwardslash Development

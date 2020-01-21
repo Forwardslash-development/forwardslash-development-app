@@ -3,7 +3,7 @@ module.exports = {
     title: `Forwardslash - Modern App Development`,
     description: `Progressive application development solutions.`,
     author: `@jv`,
-    siteUrl: `https://forwardslashinc.com`,
+    siteUrl: `https://forwardslash-development.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -17,6 +17,7 @@ import GridContainer from "../../components/Grid/GridContainer.jsx";
 import GridItem from "../../components/Grid/GridItem.jsx";
 // import Button from "../../components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
+import HeaderLinks from "../../components/Header/HeaderLinks.jsx";
 
 
 import homeStyle from "assets/jss/material-kit-react/views/home/homeStyle.jsx";
@@ -28,7 +29,7 @@ class Home extends React.Component {
       <div>
         <Header
           brand="Forwardslash Development"
-          // rightLinks={<HeaderLinks />}
+          rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
           changeColorOnScroll={{
