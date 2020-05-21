@@ -3,7 +3,7 @@ module.exports = {
     title: `Forwardslash - Modern App Development`,
     description: `Progressive application development solutions.`,
     author: `@jv`,
-    siteUrl: `https://forwardslash-development.com`,
+    siteUrl: `https://forwardslash-development.io`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -34,8 +34,7 @@ module.exports = {
         bucketName: "forwardslash-development.io",
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
+    // Plugins enables Progressive Web App + Offline functionality
     `gatsby-plugin-offline`,
     `gatsby-plugin-resolve-src`,
     `gatsby-plugin-sitemap`,
