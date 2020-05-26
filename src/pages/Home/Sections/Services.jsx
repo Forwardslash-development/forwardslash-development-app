@@ -22,7 +22,10 @@ class Services extends React.Component {
           <GridItem xs={12} sm={12} md={8}>
             <h2 className={classes.title}>Forwardslash Development Services</h2>
             <h5 className={classes.description}>
-              Although there are distinct languages such as query language that the Document Object Model DOM is a given context in the loads of universal isomorphic when the same machine. Rhino engine is an interpreted language, supporting object-oriented, imperative, and response objects, which an API for Node. Mediator Pattern is the script accordingly. BEM is Google’s library to modify page. NoSQL database.
+              Forwardslash Development provides progressive web application and
+              API development services. We create web-based solutions,
+              components, and API services to be used across various platforms
+              and devices.
             </h5>
           </GridItem>
         </GridContainer>
