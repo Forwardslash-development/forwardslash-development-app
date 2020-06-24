@@ -27,36 +27,36 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-95f99d4de727e1419a56.js"
+    "url": "webpack-runtime-59ed9386e18478a929fe.js"
   },
   {
-    "url": "framework-d7c7677fbf1ef5a25da8.js"
+    "url": "framework-dab657cf2d102cb8d2b9.js"
   },
   {
-    "url": "app-b0d21ad6af3137b9f91f.js"
-  },
-  {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-9cf7cb5cee9f045179fd.js"
+    "url": "app-ff9b9838f834a0f90cbd.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "1f9bfee78f72b141f575d641cbb7a860"
+    "revision": "94076156b4395a7d5c9ac5989a8cd6d6"
+  },
+  {
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-8b1a19ee3162ca2c8767.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "8eaa926e3dd2f561cc6ed72b4f061ced"
+    "revision": "d20c97e81d503f9baf1c9a1f255daa99"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, new workbox.strategies.NetworkFirst(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\/page-data\/app-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
 /* global importScripts, workbox, idbKeyval */
-
-importScripts(`idb-keyval-iife.min.js`)
+importScripts(`idb-keyval-3.2.0-iife.min.js`)
 
 const { NavigationRoute } = workbox.routing
 
@@ -93,7 +93,7 @@ function handleAPIRequest({ event }) {
   const params = pathname.match(/:(.+)/)[1]
   const data = {}
 
-  if (params.indexOf(`=`) !== -1) {
+  if (params.includes(`=`)) {
     params.split(`&`).forEach(param => {
       const [key, val] = param.split(`=`)
       data[key] = val
@@ -137,7 +137,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-b0d21ad6af3137b9f91f.js`))) {
+  if (!resources || !(await caches.match(`/app-ff9b9838f834a0f90cbd.js`))) {
     return await fetch(event.request)
   }
 

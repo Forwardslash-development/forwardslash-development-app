@@ -23,10 +23,9 @@ export class Services extends Component {
           <GridItem xs={12} sm={12} md={8}>
             <h2 className={classes.title}>Forwardslash Development Services</h2>
             <h5 className={classes.description}>
-              Forwardslash Development provides progressive web application and
-              API development services. We create web-based solutions,
-              components, and API services to be used across various platforms
-              and devices.
+              Forwardslash Development provides modern application and API
+              development services. We create API services, web-based
+              applications, components, and design solutions. and devices.
             </h5>
           </GridItem>
         </GridContainer>
@@ -43,7 +42,7 @@ export class Services extends Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Content Management Systems"
+                title="Content Mesh"
                 description="HTML5 mobile application structure and possibly complex tasks. CSS, it changes in JavaScript engine. NoSQL database. JSHint is used to speed up consecutive function. Brunch is a tool focusing on the page refresh."
                 icon={VerifiedUser}
                 iconColor="success"
