@@ -34,6 +34,7 @@ module.exports = {
         bucketName: "forwardslash-development.io",
       },
     },
+
     // Plugins enables Progressive Web App + Offline functionality
     `gatsby-plugin-offline`,
     `gatsby-plugin-resolve-src`,

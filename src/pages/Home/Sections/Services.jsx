@@ -10,7 +10,7 @@ import Fingerprint from "@material-ui/icons/Fingerprint"
 import GridContainer from "../../../components/Grid/GridContainer.jsx"
 import GridItem from "../../../components/Grid/GridItem.jsx"
 import InfoArea from "../../../components/InfoArea/InfoArea.jsx"
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import servicesStyle from "assets/jss/material-kit-react/views/home/servicesStyle.jsx"
 
 class Services extends React.Component {
@@ -27,6 +27,9 @@ class Services extends React.Component {
               components, and API services to be used across various platforms
               and devices.
             </h5>
+            <FontAwesomeIcon icon={["fab", "apple"]} />
+            <FontAwesomeIcon icon={["fab", "microsoft"]} />
+            <FontAwesomeIcon icon={["fab", "google"]} />
           </GridItem>
         </GridContainer>
         <div>
@@ -39,7 +42,6 @@ class Services extends React.Component {
                 iconColor="info"
                 vertical
               />
-              <i className="fab fa-js-square"></i>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea

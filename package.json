@@ -2,8 +2,8 @@
   "name": "forwardslash-development-app",
   "private": true,
   "description": "Modern Application Development",
-  "version": "0.1.0",
-  "author": "jv <jv@forwardslashinc.com>",
+  "version": "0.1.1",
+  "author": "jv <jv@forwardslash-development.io>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
